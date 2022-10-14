@@ -46,7 +46,7 @@ Func aceitar()
 			While $procurar = True
 
 				Sleep(1000)
-				ToolTip("Aguardando a partida", 0, 0)
+				ToolTip("Aguardando a partida, pressiona ESC para parar", 0, 0)
 
 				$aceitar = _ImageSearch($iconeAceitar, 1, $x, $y, 20, 0)
 				If $aceitar = 1 Then
